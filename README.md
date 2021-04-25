@@ -39,4 +39,4 @@ Example of the device in AP mode
 
 Connect to it and navigate to `http://172.16.0.1/wifi` to update the wifi credentials
 
-![ap ssid](images/ap_wifi_config.jpg.jpg)
+![ap ssid](images/ap_wifi_config.jpg)
