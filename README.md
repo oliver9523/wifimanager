@@ -1,5 +1,5 @@
 # wifimanager
-wifi manager for esp devices to handle switching between AP/client mode
+wifi manager for ESP8266 (and I assume similar ESP32 but untested) devices to handle switching between AP/client mode
 
 Mostly reused code from https://github.com/esp8266/Arduino/blob/master/libraries/DNSServer/examples/CaptivePortalAdvanced/CaptivePortalAdvanced.ino
 but wrapped it in a class to make it nicer to use in my projects.
