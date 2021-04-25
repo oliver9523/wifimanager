@@ -42,6 +42,22 @@ Connect to it and navigate to `http://172.16.0.1/wifi` to update the wifi creden
 
 <img src="images/ap_wifi_config.jpg" alt="ap config update" width="300"/>
 
+After updating the wifi credentials it will switch to the host wifi network and disbale the soft AP and start the DNS service so it can be easily discoved on the network using the host name with device MAC address to avoid collisions.
+
+```
+wifi save
+reconnect? 1
+Connecting as wifi client...
+connRes: Connected
+Wifi status changed: Connected
+
+Connected to 'YOUR SSID'
+IP address: 192.168.1.244
+mDNS responder started
+http://awesome-iot-device_3C71BF2CAB03.local
+scan start
+scan done
+```
 
 If this was useful and has saved you a few hours and you want to say thanks feel free to buy-me-a-coffee!
 
