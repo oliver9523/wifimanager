@@ -35,7 +35,8 @@ Already in AP mode
 
 Example of the device in AP mode
 
-![ap ssid](images/android_wifi.jpg)
+<img src="images/android_wifi.jpg" alt="drawing" width="200"/>
+
 
 Connect to it and navigate to `http://172.16.0.1/wifi` to update the wifi credentials
 
